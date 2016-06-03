@@ -1,0 +1,23 @@
+﻿Build started 6/1/2016 09:39:45.
+     1>Project "C:\Users\Luna\Programming Projects\IGMTutorial\Physics\GJK3D\GJK-3D\GJK-3D.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Luna\Programming Projects\IGMTutorial\Physics\GJK3D\GJK-3D\\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GameObject.cpp Main.cpp Model.cpp
+         Model.cpp
+         Main.cpp
+     1>c:\users\luna\programming projects\igmtutorial\physics\gjk3d\gjk-3d\main.cpp(486): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\physics\gjk3d\gjk-3d\main.cpp(513): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\physics\gjk3d\gjk-3d\main.cpp(663): warning C4316: 'GameObject' : object allocated on the heap may not be aligned 16
+     1>c:\users\luna\programming projects\igmtutorial\physics\gjk3d\gjk-3d\main.cpp(664): warning C4316: 'GameObject' : object allocated on the heap may not be aligned 16
+         GameObject.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Luna\Programming Projects\IGMTutorial\Physics\GJK3D\Debug\GJK-3D.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Luna\Programming Projects\IGMTutorial\Physics\GJK3D\GJK-3D\\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Luna\Programming Projects\IGMTutorial\Physics\GJK3D\Debug\GJK-3D.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Luna\Programming Projects\IGMTutorial\Physics\GJK3D\Debug\GJK-3D.lib" /MACHINE:X86 Debug\GameObject.obj
+         Debug\Main.obj
+         Debug\Model.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         GJK-3D.vcxproj -> C:\Users\Luna\Programming Projects\IGMTutorial\Physics\GJK3D\Debug\GJK-3D.exe
+     1>Done Building Project "C:\Users\Luna\Programming Projects\IGMTutorial\Physics\GJK3D\GJK-3D\GJK-3D.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.75
